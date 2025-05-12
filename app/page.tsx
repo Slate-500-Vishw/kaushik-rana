@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Header from "@/components/Header";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
@@ -24,6 +24,10 @@ export default function Home() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  useEffect(() => {
+    console.log("User scrolled to:", scrollPosition);
+  }, [scrollPosition]);
+
   return (
     <>
       <LoadingBar
@@ -83,6 +87,7 @@ export default function Home() {
           </h4>
         </main>
       </div>
+      <div className="h-[1000px]"></div>
     </>
   );
 }
