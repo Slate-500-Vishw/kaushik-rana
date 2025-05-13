@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import {
   Accordion,
   AccordionContent,
@@ -278,9 +278,9 @@ const Projects = () => {
                       </li>
                       <li>
                         Analyzed time series graphs of such instances, generated
-                        from INSAT-3D's data, to extract the date, time, and
-                        peak values for the creation of a database containing
-                        active cases
+                        from INSAT-3DZ&apos;s data, to extract the date, time,
+                        and peak values for the creation of a database
+                        containing active cases
                       </li>
                       <li>
                         Studied 70 instances of thunderstorms, differentiating
@@ -325,7 +325,7 @@ const Projects = () => {
         </Accordion>
       </div>
       <div className="md:ml-15 mt-10">
-        <h2 className="text-xl md:text-2xl">Master's Projects</h2>
+        <h2 className="text-xl md:text-2xl">Master&apos;s Projects</h2>
       </div>
       <div>
         <Accordion
@@ -551,23 +551,23 @@ const Projects = () => {
                 <div id="content">
                   <p className="text-justify mt-5">
                     The human face, being a significant aspect of an
-                    individual's anatomy, holds particular importance in
+                    individual&apos;s anatomy, holds particular importance in
                     discerning their emotional state. Contemporary technology
                     now enables the direct extraction of pertinent information
                     from the human face through camera-based methods. This
                     extracted input serves as valuable data for discerning an
-                    individual's mood. By utilizing this information, a system
-                    can automatically curate a playlist of songs that align with
-                    the identified emotional state.
+                    individual&apos;s mood. By utilizing this information, a
+                    system can automatically curate a playlist of songs that
+                    align with the identified emotional state.
                   </p>
                   <p className="text-justify mt-5">
                     This streamlined approach circumvents the laborious and
                     time-consuming task of manually categorizing or grouping
                     songs, presenting an efficient solution for generating
-                    playlists tailored to an individual's emotional features. In
-                    essence, this algorithm simplifies the playlist creation
-                    process, offering a seamless and personalized music
-                    experience based on the user's mood.
+                    playlists tailored to an individual&apos;s emotional
+                    features. In essence, this algorithm simplifies the playlist
+                    creation process, offering a seamless and personalized music
+                    experience based on the user&apos;s mood.
                   </p>
                 </div>
               </div>
@@ -717,6 +717,6 @@ const Projects = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Projects
+export default Projects;
