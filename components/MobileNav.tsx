@@ -19,19 +19,19 @@ const MobileNav = () => {
     },
     {
       name: "Projects",
-      path: "/projects",
+      path: "#projects",
     },
     {
       name: "Publications",
-      path: "/publications",
+      path: "#publications",
     },
     {
       name: "Experience",
-      path: "/experience",
+      path: "#experience",
     },
     {
       name: "Contact",
-      path: "/contact",
+      path: "#contact",
     },
   ];
   const router = usePathname();

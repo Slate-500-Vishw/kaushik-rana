@@ -9,8 +9,8 @@ const inter = Inter({
 
 
 export const metadata: Metadata = {
-  title: "Kaushik Rana Portfolio",
-  description: "Made by Kaushik Rana",
+  title: "Kaushikkumar Rana Portfolio | Associate Professor ",
+  description: "Made by Kaushik Rana | Assistant Professor",
 };
 
 export default function RootLayout({
@@ -20,7 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className={`${inter.className}`}>{children}</body>
     </html>
   );

@@ -24,7 +24,7 @@ const Header = () => {
           </div>
         </div>
         {/* Mobile Nav */}
-        <div className="flex md:hidden container h-[60px] items-center justify-between mx-auto">
+        <div className="flex md:hidden h-[60px] items-center justify-between pl-[20px] pr-[20px]">
           <div className="">
             <Link href="/">
               {" "}
