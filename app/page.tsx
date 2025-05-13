@@ -8,6 +8,7 @@ import Projects from "./Projects/Projects";
 import QuotesScroller from "./Quotes/Quotes";
 import { Button } from "@/components/ui/button";
 import Interest from "./Interests/Interest";
+import Publications from "./Publications/Publications";
 
 export default function Home() {
   const [progress, setProgress] = useState(0);
@@ -148,9 +149,8 @@ export default function Home() {
       <div id="interest">
         <Interest />
       </div>
-      <div className="h-[500px]">
-
-      </div>
+      <div id="publications"><Publications /></div>
+      <div className="h-[500px]"></div>
     </>
   );
 }
