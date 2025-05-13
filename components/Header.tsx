@@ -5,7 +5,7 @@ import MobileNav from './MobileNav';
 const Header = () => {
   return (
     <>
-      <div>
+      <div className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
         {/* Desktop Nav */}
         <div className="hidden md:flex container h-[60px] items-center justify-between mx-auto">
           <div className="">
@@ -13,9 +13,7 @@ const Header = () => {
               {" "}
               <h1 className="text-3xl">
                 Kaushik
-                <span className="accent-color">
-                  .
-                </span>
+                <span className="accent-color">.</span>
               </h1>
             </Link>
           </div>
@@ -30,9 +28,7 @@ const Header = () => {
               {" "}
               <h1 className="text-3xl">
                 Kaushik
-                <span className="accent-color">
-                  .
-                </span>
+                <span className="accent-color">.</span>
               </h1>
             </Link>
           </div>

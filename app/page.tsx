@@ -9,6 +9,8 @@ import QuotesScroller from "./Quotes/Quotes";
 import { Button } from "@/components/ui/button";
 import Interest from "./Interests/Interest";
 import Publications from "./Publications/Publications";
+import Experience from "./Experience/Experience";
+import Contact from "./Contact/Contact";
 
 export default function Home() {
   const [progress, setProgress] = useState(0);
@@ -35,7 +37,7 @@ export default function Home() {
   }, [scrollPosition]);
 
   return (
-    <>
+    <div className="overflow-x-hidden">
       <LoadingBar
         color="#FE7743"
         progress={progress}
@@ -43,7 +45,7 @@ export default function Home() {
         shadow={true}
       />
       <Header />
-      <div className="hidden mt-20 md:flex" id="#introduction">
+      <div className="hidden mt-20 md:flex " id="#introduction">
         <main className="w-[50%] flex">
           <div className="flex flex-col w-full space-y-2 px-10">
             <div className="flex justify-start ml-15 w-full">
@@ -75,7 +77,7 @@ export default function Home() {
         </section>
       </div>
       <div className="flex md:hidden flex-col">
-        <section className="w-full flex mt-10 justify-center">
+        <section className="w-full flex mt-20 justify-center">
           <Image
             src="/Kaushik's Image.png"
             width={300}
@@ -149,8 +151,16 @@ export default function Home() {
       <div id="interest">
         <Interest />
       </div>
-      <div id="publications"><Publications /></div>
-      <div className="h-[500px]"></div>
-    </>
+      <div id="publications">
+        <Publications />
+      </div>
+      <div id="experience">
+        <Experience />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      <div className="h-[100px]"></div>
+    </div>
   );
 }

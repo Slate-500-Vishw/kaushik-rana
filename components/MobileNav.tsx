@@ -53,7 +53,7 @@ const MobileNav = () => {
                     key={index}
                     className={`${
                       item.path === router
-                        ? "accent-color text-[20px]"
+                        ? "text-[20px]"
                         : "text-[20px]"
                     }`}
                   >
