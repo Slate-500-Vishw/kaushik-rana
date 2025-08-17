@@ -106,15 +106,7 @@ export default function Home() {
           Introduction
         </h1>
         <p className="md:ml-15 md:mr-15 ml-5 mr-5">
-          Dr. Kaushikkumar Rana is a highly qualified academician and educator
-          of more than 19 years with a phenomenal expertise in over 10
-          languages. He has an international outlook towards his work with a
-          unique blend of global insight. Dr. Kaushikkumar has over 15 research
-          publications to his credit and has successfully contributed to over 10
-          high-profile projects across disciplines during his professional
-          journey. His commitment to academic excellence, research, and
-          multilingual education has placed him in a reputable position in
-          national and international academic communities.
+          With over 19 years of experience as an educator and a highly qualified academician, Dr. Kaushikkumar Rana possesses exceptional proficiency in over ten languages.  He approaches his work with a global perspective and a special fusion of global knowledge.  Throughout his career, Dr. Kaushikkumar has successfully contributed to more than ten high-profile projects across disciplines and has over 15 research publications to his name.  His dedication to research, multilingual education, and academic excellence has earned him respect in both domestic and foreign academic circles.
         </p>
       </div>
       <div className="md:ml-15 md:px-10 mt-10 ml-6">
